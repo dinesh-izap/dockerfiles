@@ -52,6 +52,7 @@ RUN mkdir -p /usr/share/icons/hicolor && \
 
 COPY local.conf /etc/fonts/local.conf
 
+#Dinesh
 # Autorun chrome
 ENTRYPOINT [ "/usr/bin/google-chrome" ]
 CMD [ "--user-data-dir=/data" ]
